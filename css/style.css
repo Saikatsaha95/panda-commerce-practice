@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(1, 1, 27);
+}
+
+.panda-bg-pink {
+  background-color: hotpink;
+}
+
+.panda-btn {
+  background-color: #ff136f;
+  padding: 9px 25px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.panda-btn:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: #ff136f;
+  font-weight: bold;
+}
+
+.panda-carousel-control-prev,
+.panda-carousel-control-next {
+  align-items: center;
+  justify-content: flex-start;
+  width: 4%;
+}
+
+.categories img {
+  width: 100px;
+}
+
+.watch-bg {
+  background-color: #ffa500;
+}
+
+.bag-bg {
+  background-color: #da70d6;
+}
+
+.shoes-bg {
+  background-color: #0000ff;
+}
+
+.watch-bg,
+.bag-bg,
+.shoes-bg {
+  border-radius: 10px;
+  color: white;
+}
+
+.categories-hover {
+  transition: all 0.5s;
+}
+.categories-hover:hover {
+  transform: scale(1.2);
+}
+
+.card-hover {
+  transition: all 0.5s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.09);
+}
+
+#subscribe {
+  height: 300px;
+}
+
+footer {
+  color: grey;
+}
